@@ -7,6 +7,16 @@ Demo application: **Recipe Notebook** — a simple recipe manager with image upl
 ## Status
 🚧 In development
 
+## Roadmap
+
+- [x] Phase 0 - Repository Setup
+- [ ] Phase 1 - Backend Core
+- [ ] Phase 2 - Frontend
+- [ ] Phase 3 - Docker & Local Development
+- [ ] Phase 4 - Terraform & AWS
+- [ ] Phase 5 - CI/CD & Monitoring
+- [ ] Phase 6 - Documentation
+
 ## Tech Stack
 - Frontend: React + TypeScript + Vite + Tailwind
 - Backend: FastAPI + SQLAlchemy + JWT
