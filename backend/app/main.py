@@ -1,8 +1,10 @@
 from fastapi import FastAPI
 
-app = FastAPI(title="CloudBase API")
+from app.api.v1.health import router as health_router
 
+app = FastAPI(
+    title="CloudBase API",
+    version="0.1.0",
+)
 
-@app.get("/health")
-def health():
-    return {"status": "ok"}
+app.include_router(health_router)
