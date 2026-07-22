@@ -1,28 +1,35 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 .venv/
 venv/
 *.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 
 # Node
 node_modules/
 dist/
 build/
 
-# Env
+# Environment
 .env
-.env.local
+.env.*
+!.env.example
 
 # Terraform
-*.tfstate
-*.tfstate.backup
 .terraform/
+*.tfstate
+*.tfstate.*
 *.tfvars
 
 # IDE
 .vscode/
 .idea/
 
-# OS
+# Operating System
 .DS_Store
+Thumbs.db
